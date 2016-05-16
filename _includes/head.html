@@ -8,22 +8,22 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-  <link rel="manifest" href="/favicon/manifest.json">
+  <link rel="apple-touch-icon" sizes="57x57" href="http://{{ site.host }}/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="http://{{ site.host }}/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="http://{{ site.host }}/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="http://{{ site.host }}/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="http://{{ site.host }}/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="http://{{ site.host }}/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="http://{{ site.host }}/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="http://{{ site.host }}/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="http://{{ site.host }}/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="http://{{ site.host }}/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="http://{{ site.host }}/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="http://{{ site.host }}/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="http://{{ site.host }}/favicon/favicon-16x16.png">
+  <link rel="manifest" href="http://{{ site.host }}/favicon/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+  <meta name="msapplication-TileImage" content="http://{{ site.host }}/favicon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 
   <!-- Fonts -->
@@ -34,15 +34,15 @@
 
 
   <!-- Import jQuery before CSS -->
-  <script type="text/javascript" src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
-  <script type="text/javascript" src="{{ "/js/materialize.min.js" | prepend: site.baseurl }}"></script>
-  <script type="text/javascript" src="{{ "/js/init.js" | prepend: site.baseurl }}"></script>
+  <script type="text/javascript" src="{{ "http://{{ site.host }}/js/jquery.min.js" | prepend: site.baseurl }}"></script>
+  <script type="text/javascript" src="{{ "http://{{ site.host }}/js/materialize.min.js" | prepend: site.baseurl }}"></script>
+  <script type="text/javascript" src="{{ "http://{{ site.host }}/js/init.js" | prepend: site.baseurl }}"></script>
 
 
   <!-- Import CSS -->
-  <link type="text/css" rel="stylesheet" href="{{ "/css/materialize.min.css" | prepend: site.baseurl }}">
-  <link type="text/css" rel="stylesheet" href="{{ "/css/custom.css" | prepend: site.baseurl }}">
+  <link type="text/css" rel="stylesheet" href="{{ "http://{{ site.host }}/css/materialize.min.css" | prepend: site.baseurl }}">
+  <link type="text/css" rel="stylesheet" href="{{ "http://{{ site.host }}/css/custom.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "http://{{ site.host }}/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
 </head>
