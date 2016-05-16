@@ -13,7 +13,7 @@ layout: default
         {% if page.feature-image-file %}
         <div class="row post-feature-image">
           <div class="col s12 m12 l10 offset-l1">
-            <img class="responsive-img z-depth-1 materialboxed" src="/img/blog/{{ page.feature-image-file }}" {% if page.feature-image-alt %} alt="{{ page.feature-image-alt }}" {% endif %}{% if page.feature-image-caption %} data-caption="{{ page.feature-image-caption }}"{% endif %}>
+            <img class="responsive-img z-depth-1 materialboxed" src="http://{{ site.host }}/img/blog/{{ page.feature-image-file }}" {% if page.feature-image-alt %} alt="{{ page.feature-image-alt }}" {% endif %}{% if page.feature-image-caption %} data-caption="{{ page.feature-image-caption }}"{% endif %}>
           </div>
         </div>
         {% endif %}
