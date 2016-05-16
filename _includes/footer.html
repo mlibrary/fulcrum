@@ -2,14 +2,14 @@
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-              <img class="responsive-img" src="/img/fulcrum-white-footer.png" alt="Fulcrum">
+              <img class="responsive-img" src="http://{{ site.host }}/img/fulcrum-white-footer.png" alt="Fulcrum">
               <p class="grey-text text-lighten-4 about light">{{ site.description }} For more information subscribe to our newsletter or send an e-mail to <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
         </div>
         <div class="col l3 s12 offset-l1 footer-menu">
           <ul>
-            <li><a class="white-text" href="{{ "/about/index.html#authors" | prepend: site.baseurl }}">For Authors</a></li>
-            <li><a class="white-text" href="{{ "/about/index.html#publishers" | prepend: site.baseurl }}">For Publishers</a></li>
-            <li><a class="white-text" href="{{ "/about/index.html#readers" | prepend: site.baseurl }}">For Readers</a></li>
+            <li><a class="white-text" href="{{ "http://{{ site.host }}/about/index.html#authors" | prepend: site.baseurl }}">For Authors</a></li>
+            <li><a class="white-text" href="{{ "http://{{ site.host }}/about/index.html#publishers" | prepend: site.baseurl }}">For Publishers</a></li>
+            <li><a class="white-text" href="{{ "http://{{ site.host }}/about/index.html#readers" | prepend: site.baseurl }}">For Readers</a></li>
             <li><a class="white-text" href="mailto:{{ site.email }}">Contact</a></li>
             <li><a class="white-text" href="https://github.com/{{ site.github_username }}">Contribute</a></li>
           </ul>
