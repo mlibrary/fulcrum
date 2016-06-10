@@ -16,7 +16,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://fulcrum.org" # the base hostname & protocol for your site
 #twitter_username:
 #github_username:  mlibrary/fulcrum
-github_username: curationexperts/heliotrope
+github_username: mlibrary/heliotrope
 # Build settings
 markdown: kramdown
 host: fulcrum.org
