@@ -36,6 +36,7 @@ $milli: 0.65rem; // 13px
 
 // icon sizes
 $github: 2rem;
+$twitter: 2rem;
 
 // custom type sizes
 $navi: 0.85rem;
@@ -192,6 +193,9 @@ html {
 // icons
 .github {
   height: $github;
+}
+.twitter {
+  height: $twitter;
 }
 
 // global
