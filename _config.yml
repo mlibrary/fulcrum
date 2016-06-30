@@ -19,4 +19,4 @@ twitter_username: fulcrumpub
 github_username:  mlibrary/heliotrope
 # Build settings
 markdown: kramdown
-#host: fulcrum.org
+host: fulcrum.org
