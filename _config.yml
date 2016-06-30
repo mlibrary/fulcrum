@@ -6,6 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
+permalink: /blog/:year/:month/:day/:title
 title: fulcrum
 email: fulcrum-info@umich.edu
 description: > # this means to ignore newlines until "baseurl:"
@@ -18,4 +19,4 @@ twitter_username: fulcrumpub
 github_username:  mlibrary/heliotrope
 # Build settings
 markdown: kramdown
-host: fulcrum.org
+#host: fulcrum.org

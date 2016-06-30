@@ -1,10 +1,11 @@
 ---
 layout: post
 title:  "Building a Hosted Platform for Managing Monographic Source Materials: Report on the First Year of the Mellon Grant to University of Michigan"
-date:   2016-06-30 16:46:30 -0400
-author: Charles Watkinson, Jeremy Morse, Melissa Baker-Young
+date: 2016-06-30
+author: "Charles Watkinson, Jeremy Morse, Melissa Baker-Young"
 categories: blog
 ---
+
 In March 2015 University of Michigan Press received $899,000 from the Andrew W. Mellon Foundation for a project entitled “Building a Hosted Platform for Managing Monographic Source Materials.” The proposal was for a suite of activities to be conducted over a period of three years (April 1, 2015 to March 31, 2018) with the end deliverable being a publishing platform built on the Hydra/Fedora framework, to be made available open source for reuse as well as in the form of a hosted for-fee solution. This report describes progress made on the project during the first year (April 1, 2015 to March 31, 2016) as well as some of the challenges encountered. It is a version of the required annual grant update submitted to the Foundation.
 
 While in the short term the primary application of the platform is to address the “companion website” problem (an increasing demand from authors for a way of presenting research data alongside their books), in the longer term it will also provide the infrastructure to enable long form presentations of digital scholarship (the monographs of the future?) to be published. The Hydra/Fedora framework has become popular among large research libraries building data repositories and other content management solutions, and the proposal leverages the developing relationship between libraries and university presses to further their joint goal of better serving the digital scholarship needs of faculty.
